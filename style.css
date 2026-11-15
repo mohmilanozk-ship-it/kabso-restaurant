@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap');
+:root{--gold:#d9a72e;--gold2:#f1ca65;--ink:#15120e;--muted:#b9b1a4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#100e0b;color:#f8f4eb;font-family:"Cairo",Tahoma,sans-serif;line-height:1.8}
+a{color:inherit;text-decoration:none}.topbar{height:84px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;background:#100e0bf2;position:sticky;top:0;z-index:10;border-bottom:1px solid #d9a72e33}
+.brand,.footer-brand{display:flex;flex-direction:column;align-items:center;line-height:1}.brand-mark{font-size:30px;font-weight:900;color:var(--gold2);letter-spacing:-2px}.brand-sub{font:9px Arial,sans-serif;letter-spacing:2px;color:#c6bda9;margin-top:7px}
+.nav{display:flex;gap:30px;color:#e8dfcf;font-size:14px}.nav a:hover{color:var(--gold2)}.nav-order{background:var(--gold);color:#17120a;padding:9px 23px;border-radius:3px;font-weight:800}.menu-toggle{display:none;background:none;color:white;border:0;font-size:26px}
+.hero{min-height:650px;position:relative;display:flex;align-items:center;padding:80px 10%;background:#17120d url("assets/food-1.jpg") center 43%/cover no-repeat}.hero-shade{position:absolute;inset:0;background:linear-gradient(270deg,rgba(9,8,7,.96),rgba(9,8,7,.75) 42%,rgba(9,8,7,.12))}.hero-content{position:relative;max-width:590px}.eyebrow,.section-kicker{color:var(--gold2);font-weight:800;letter-spacing:1px}.hero h1{font-size:clamp(48px,7vw,82px);line-height:1.2;margin:8px 0}.hero h1 span,.section h2 span{color:var(--gold2)}.hero-line{font-size:25px;color:var(--gold2);font-weight:800;margin:0 0 8px}.hero-desc{color:#e4d9c8;font-size:17px}.hero-actions{display:flex;gap:13px;margin-top:30px;flex-wrap:wrap}.btn{padding:12px 25px;border-radius:3px;font-weight:800;display:inline-block}.btn-gold{background:var(--gold);color:#17120a}.btn-outline{border:1px solid #e0b94f;color:#f5d985}.hero-note{position:absolute;bottom:24px;left:10%;color:#e9d49c;font-size:12px;letter-spacing:2px}
+.section{padding:90px 8%;text-align:center}.intro{background:#191510}.section h2{font-size:clamp(30px,4vw,46px);margin:7px 0 10px}.intro>p,.section-lead{max-width:680px;margin:0 auto;color:var(--muted)}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin:48px auto 0;max-width:1000px}.features article{padding:25px;border:1px solid #8d6c2d55;background:#211c15}.features b{font-size:27px;color:var(--gold2)}.features h3{margin:8px 0 2px}.features p{color:var(--muted);font-size:14px;margin:0}
+.menu-section{background:#100e0b}.food-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin:42px auto 0;max-width:1120px;text-align:right}.food-card{background:#1d1913;border:1px solid #8d6c2d44;overflow:hidden;transition:.25s}.food-card:hover{transform:translateY(-5px);border-color:var(--gold)}.food-card img{width:100%;height:250px;object-fit:cover;display:block}.food-info{padding:15px 18px 19px}.food-info h3{margin:0;color:var(--gold2);font-size:20px}.food-info p{margin:4px 0 0;color:#c4bbaa;font-size:14px}.menu-disclaimer{color:#b9b1a4;font-size:13px;margin-top:30px}
+.banner{padding:48px 9%;background:linear-gradient(100deg,#241b0d,#4b3514);display:flex;align-items:center;justify-content:space-between;gap:25px}.banner h2{font-size:clamp(25px,4vw,38px);margin:4px 0}.banner p{margin:0;color:#d5c8ae}
+footer{text-align:center;padding:55px 20px 25px;background:#090807;border-top:1px solid #d9a72e44}.footer-brand{margin-bottom:18px}.footer-brand .brand-mark{font-size:35px}footer>p{color:#d5c49f}.contact-links{display:flex;justify-content:center;gap:25px;flex-wrap:wrap;margin:22px 0 35px;color:var(--gold2)}footer small{color:#81796d}
+@media(max-width:800px){.topbar{height:72px;padding:0 5%}.menu-toggle{display:block;order:3}.nav{display:none;position:absolute;top:72px;right:0;left:0;background:#15120e;flex-direction:column;gap:0;padding:10px 6%;border-bottom:1px solid #a77e2c}.nav.open{display:flex}.nav a{padding:11px 0}.nav-order{margin-right:auto;margin-left:18px;padding:7px 15px}.hero{min-height:590px;padding:65px 7%;background-position:55% center}.hero-shade{background:linear-gradient(270deg,rgba(9,8,7,.95),rgba(9,8,7,.7) 70%,rgba(9,8,7,.3))}.features{grid-template-columns:1fr;gap:12px}.food-grid{grid-template-columns:repeat(2,1fr);gap:13px}.food-card img{height:190px}.section{padding:65px 5%}.banner{padding:38px 7%;flex-direction:column;align-items:flex-start}.hero-note{left:7%}}
+@media(max-width:480px){.brand-mark{font-size:25px}.brand-sub{font-size:7px}.nav-order{font-size:12px}.hero{min-height:560px}.hero h1{font-size:49px}.hero-line{font-size:21px}.hero-desc{font-size:15px}.food-grid{grid-template-columns:1fr}.food-card img{height:230px}.contact-links{flex-direction:column;gap:8px}}
+
+.branch-contacts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;max-width:1100px;margin:25px auto 12px}
+.branch-contact{display:flex;flex-direction:column;gap:3px;padding:17px 12px;background:#191510;border:1px solid #8d6c2d66;border-radius:4px}
+.branch-contact strong{color:var(--gold2);font-size:15px}
+.branch-contact span{color:#b9b1a4;font-size:12px}
+.branch-contact b{font-size:17px;direction:ltr}
+.branch-contact:hover{border-color:var(--gold);background:#241d12}
+.branch-contact.complaints{border-color:#d9a72e}
+.social-link{margin:18px 0 30px;color:var(--gold2)}
+@media(max-width:800px){.branch-contacts{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:420px){.branch-contacts{grid-template-columns:1fr}.branch-contact{padding:13px}}
+
+/* Official brand artwork supplied for Kabso */
+.brand{gap:5px}
+.brand-logo{width:48px;height:48px;object-fit:cover;border-radius:50%;border:1px solid #d9a72e}
+.brand-banner{width:100%;background:#080706;line-height:0}
+.brand-banner img{display:block;width:100%;height:auto;max-height:360px;object-fit:cover}
+.footer-logo{width:76px;height:76px;object-fit:cover;border-radius:50%;border:1px solid var(--gold)}
+@media(max-width:800px){.brand-logo{width:42px;height:42px}.brand-banner img{max-height:220px}}
